@@ -4,7 +4,7 @@ import { useModalContext } from '.';
 import { getContentLayoutStyle } from './utils/getContentLayoutStyle';
 import { getCustomChildren } from './utils/getCustomChildren';
 
-import styles from '../lib/styles/modal.module.css';
+import styles from '../../css/modal.module.css';
 
 interface ChildProps {
   children: React.ReactNode;
