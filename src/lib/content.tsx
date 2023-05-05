@@ -4,7 +4,7 @@ import { useModalContext } from '.';
 import { getContentLayoutStyle } from './utils/getContentLayoutStyle';
 import { getCustomChildren } from './utils/getCustomChildren';
 
-import styles from '../../css/modal.module.css';
+import '../../css/modal.css';
 
 interface ChildProps {
   children: React.ReactNode;
@@ -29,7 +29,7 @@ const Content: React.FC<ContentProps> = ({
 
   if (isCustom && isModal) {
     return getCustomChildren(children, {
-      className: styles[getContentLayoutStyle(isCenter, isBottom)],
+      className: getContentLayoutStyle(isCenter, isBottom),
     });
   }
 
