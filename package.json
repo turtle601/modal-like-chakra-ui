@@ -11,7 +11,10 @@
     "chakraui",
     "compound component"
   ],
-  "contributors": ["poomaneoung", "turtle601"],
+  "contributors": [
+    "poomaneoung",
+    "turtle601"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -53,6 +56,7 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26",
-    "styled-components": "^5.3.10"
+    "styled-components": "^5.3.10",
+    "typescript-plugin-css-modules": "^5.0.1"
   }
 }
