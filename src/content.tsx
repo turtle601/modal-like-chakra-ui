@@ -1,10 +1,9 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+
 import { useModalContext } from '.';
 import { getContentLayoutStyle } from './utils/getContentLayoutStyle';
 import { getCustomChildren } from './utils/getCustomChildren';
-
-import '../../css/modal.css';
 
 interface ChildProps {
   children: React.ReactNode;

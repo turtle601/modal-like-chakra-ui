@@ -7,6 +7,8 @@ import Header, { HeaderProps } from './header';
 import Body, { BodyProps } from './body';
 import Footer, { FooterProps } from './footer';
 
+import '../css/modal.css';
+
 export interface CustomProps {
   children: React.ReactNode;
   isCustom?: boolean;

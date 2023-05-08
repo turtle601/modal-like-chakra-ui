@@ -1,6 +1,6 @@
 {
   "name": "turtle601-modal-like-chakra-ui",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,6 +10,10 @@
     "react",
     "chakraui",
     "compound component"
+  ],
+  "files": [
+    "dist",
+    "css/modal.css"
   ],
   "contributors": [
     "poomaneoung",
@@ -34,7 +38,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepare": "rm -rf dist && mkdir dist && tsc"
+    "prepare": "rm -rf ./dist && tsc"
   },
   "eslintConfig": {
     "extends": [
